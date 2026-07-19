@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Output files
+*.png
+*.jpg
+*.jpeg
+*.zip
+
+archive/
+
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary/backup files
+*.bak
+*~
