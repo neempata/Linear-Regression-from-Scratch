@@ -23,9 +23,7 @@ ENV/
 
 archive/
 
-
 # OS
-.DS_Store
 Thumbs.db
 
 # Temporary/backup files
