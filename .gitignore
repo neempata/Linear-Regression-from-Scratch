@@ -20,6 +20,7 @@ ENV/
 *.jpg
 *.jpeg
 *.zip
+.wepg
 
 archive/
 
