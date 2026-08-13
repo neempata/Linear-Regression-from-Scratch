@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib.pyplot
 
 
 def compute_error_for_line_given_points(b, m, points):
