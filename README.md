@@ -110,13 +110,13 @@ Automatically saved graph image
 
 The use of feature normalization allows the model to converge more efficiently while maintaining accurate predictions.
 
-What I Learned
+## What I Learned
 
 This project strengthened my understanding of how Linear Regression works behind the scenes by implementing every step manually rather than relying on machine learning libraries. It provided practical experience with Gradient Descent optimization, feature normalization, loss functions, and vectorized numerical computation using NumPy.
 
 Developing the model also reinforced the importance of data preprocessing, iterative optimization, and visualization for evaluating model performance. Seeing the error decrease over thousands of training iterations provided valuable insight into how machine learning algorithms gradually improve through optimization.
 
-Future Improvements
+## Future Improvements
 
 Some improvements I'd like to explore include:
 
