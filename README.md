@@ -84,7 +84,7 @@ Final regression equation
 Repository Structure
 Student-Performance-Linear-Regression/
 
-Installation
+## Installation
 
 Clone the repository:
 
@@ -99,33 +99,6 @@ Run the application:
 python LinearRegression.py
 
 Before running the project, ensure that the dataset path inside the script points to the correct location of Student_Performance.csv on your system.
-
-Example Machine Learning Pipeline
-Student Performance Dataset
-            │
-            ▼
-Data Loading
-            │
-            ▼
-Missing Value Removal
-            │
-            ▼
-Feature Normalization
-            │
-            ▼
-Gradient Descent Training
-            │
-            ▼
-Mean Squared Error Calculation
-            │
-            ▼
-Regression Line Generation
-            │
-            ▼
-Visualization & Model Output
-Results
-
-The application successfully learns the relationship between students' previous scores and their overall performance index using Gradient Descent.
 
 The final output includes:
 
