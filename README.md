@@ -35,13 +35,13 @@ Performance Index (Target Variable)
 
 Rows containing missing values are automatically removed before training begins.
 
-2. Data Preprocessing
+## 2. Data Preprocessing
 
 To improve Gradient Descent convergence, the input feature is normalized using standardization.
 
 The feature's mean and standard deviation are calculated, allowing the data to be scaled without affecting the relationship between the variables.
 
-3. Model Training
+## 3. Model Training
 
 The model begins with randomly initialized parameters for the slope and intercept.
 
@@ -55,13 +55,13 @@ Stores the Mean Squared Error
 
 This process repeats until the model converges toward the optimal regression line.
 
-4. Error Calculation
+## 4. Error Calculation
 
 The performance of the model is measured using Mean Squared Error (MSE).
 
 The loss value is recorded after every training iteration, allowing the convergence behavior of Gradient Descent to be visualized.
 
-5. Data Visualization
+## 5. Data Visualization
 
 After training, the application generates two visualizations:
 
@@ -71,7 +71,8 @@ Error convergence graph showing how the Mean Squared Error decreases throughout 
 The visualization is automatically saved as:
 
 regression_visualization.png
-6. Model Output
+
+## 6. Model Output
 
 Once training is complete, the application prints:
 
@@ -82,12 +83,7 @@ Learned intercept
 Final regression equation
 Repository Structure
 Student-Performance-Linear-Regression/
-│
-├── LinearRegression.py
-├── Student_Performance.csv
-├── regression_visualization.png
-├── README.md
-└── requirements.txt
+
 Installation
 
 Clone the repository:
