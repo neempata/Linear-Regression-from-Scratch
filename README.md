@@ -2,7 +2,7 @@ A machine learning project that implements Linear Regression from scratch using 
 
 Built with Python, NumPy, and Matplotlib, this project demonstrates the complete workflow of a supervised machine learning model, including data preprocessing, feature normalization, gradient descent optimization, model evaluation, and data visualization.
 
-Project Overview
+## Project Overview
 
 Linear Regression is one of the most fundamental algorithms in machine learning and serves as the foundation for understanding predictive modeling. Rather than relying on machine learning libraries such as Scikit-Learn to train the model, this project manually implements the mathematics behind Linear Regression using Gradient Descent.
 
@@ -10,7 +10,8 @@ The application loads a real-world student performance dataset, selects Previous
 
 Throughout the training process, the model tracks the loss at each iteration and visualizes both the fitted regression line and the error convergence, providing a clear understanding of how Gradient Descent improves the model over time.
 
-Features
+## Features
+
 Linear Regression implemented entirely from scratch
 Gradient Descent optimization
 Mean Squared Error (MSE) calculation
@@ -24,7 +25,8 @@ Python
 NumPy
 Matplotlib
 Machine Learning Pipeline
-1. Data Loading
+
+## 1. Data Loading
 
 The application loads the Student Performance Dataset from a CSV file using NumPy. Only the relevant columns are extracted:
 
